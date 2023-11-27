@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "601352971355",
+    "project_id": "face-detector-ml-fe221",
+    "storage_bucket": "face-detector-ml-fe221.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601352971355:android:0ce0b872f6b5d78eac8b7e",
+        "android_client_info": {
+          "package_name": "com.example.task2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAioE26Cotngelo-1QB72aYwBYvtxyewEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

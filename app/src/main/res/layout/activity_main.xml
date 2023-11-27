@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#110E1B"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="625dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/pngwing" />
+
+    <TextView
+        android:id="@+id/title_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="44dp"
+        android:fontFamily="@font/font1"
+        android:paddingEnd="3dp"
+        android:paddingBottom="4dp"
+        android:text="Face Detector Application"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/open_cam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-150dp"
+        android:background="@drawable/button_background"
+        android:backgroundTint="@color/border_color"
+        android:fontFamily="@font/sourcesansprosemibolditalic"
+        android:padding="15dp"
+        android:text="Open Camera"
+        android:textAllCaps="true" />
+
+    <TextView
+        android:id="@+id/directions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/open_cam"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="46dp"
+        android:text="Steps to Follow:"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text1"
+        android:textColor="@color/white"
+        android:layout_below="@+id/directions"
+        android:layout_centerHorizontal="true"
+        android:text="Click on the Button above to use the Camera"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:id="@+id/textview2"
+        android:layout_below="@+id/text1"
+        android:layout_centerHorizontal="true"
+        android:text="Click an image"
+        android:layout_marginTop="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:id="@+id/text3"
+        android:layout_below="@+id/textview2"
+        android:layout_centerHorizontal="true"
+        android:text="Confirm the image or Retake"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="The results are displayed on the screen"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/text6"
+        android:layout_width="299dp"
+        android:layout_height="231dp"
+        android:layout_below="@+id/title_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="180dp"
+        app:srcCompat="@drawable/image1" />
+
+
+</RelativeLayout>
